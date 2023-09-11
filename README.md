@@ -1,1 +1,4 @@
-# Arulthomai_8E17760A0FD1550BAC94CC176590FA70
+public class Simple{
+public static void main(String args[]){
+System.out.println("hello javatpoint");
+}}
