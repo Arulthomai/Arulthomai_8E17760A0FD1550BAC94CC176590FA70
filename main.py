@@ -1,20 +1,9 @@
+def fact_rec(n):
+    if n == 0 or n == 1:  # Changed n--8 to n == 0, and n=1 to n == 1
+        return 1
+    else:
+        return n * fact_rec(n - 1)
 
-#include <stdio.h>
- 
-unsigned long factorial(int n)
-{
-    
-    if (n < 1) {
-        return 1;
-    }
-    return n * factorial(n - 1);
-}
- 
-int main()
-{
-    int n = 5;
-    printf("The Factorial of %d is %lu", n, factorial(n));
- 
-    return 0;
-}
-
+number = int(input("Enter a value: "))
+res = fact_rec(number)
+print("The factorial of {} is {}.".format(number, res)
